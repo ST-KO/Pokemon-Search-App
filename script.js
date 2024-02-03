@@ -51,7 +51,8 @@ const showData = (data) => {
  const pokeTypes = types.map((element) => `<p>${element.type.name.toUpperCase()}</p>`).join("");
  //console.log(results);
 
-const newName = name.toUpperCase();
+ const newName = name.toUpperCase();
+ 
  postsContainer.innerHTML =  `
    <div>
      <img id="sprite" src="${sprites['front_default']}"/>

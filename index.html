@@ -2,36 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Pokemon Search App</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
   <main>
-    <h2>Search for Pokemon Name or Id:</h2>
-    <input id="search-input" required></input>
-    <button id="search-button">Search</button>
-    <div class="table-wrapper">
-        <div>
-            <div style="display: flex; gap: 10px;">
-                <p id="pokemon-name">Name</p>
-                <p id="pokemon-id">Id</p>
-            </div>
-
-            <div style="display: flex; gap: 10px;">
-                <p id="weight">Weight</p>
-                <p id="height">Height</p>
-            </div>
-            
-            <div id="posts-container"></div>
-            <p id="types">Types</p>
-            <p id="hp">HP</p>
-            <p id="attack">Attack</p>
-            <p id="defense">Defence</p>
-            <p id="special-attack">Sp. Attack</p>
-            <p id="special-defense">Sp. Defence</p>
-            <p id="speed">Speed</p>
-          
+    
+    <div class="main_div">
+        <h2>Search for Pokemon Name or Id:</h2>
+        <div class="input_btn">    
+            <input id="search-input" required></input>
+            <button id="search-button">Search</button>
         </div>
-      </div>
+    
+        <div class="table-wrapper">
+        
+                <div style="display: flex; gap: 10px;">
+                    <p id="pokemon-name"></p>
+                    <p id="pokemon-id"></p>
+                </div>
+    
+                <div style="display: flex; gap: 10px;">
+                    <p id="weight"></p>
+                    <p id="height"></p>
+                </div>
+                
+                <div id="posts-container"></div>
+    
+                <div>
+                    <p id="types"></p>
+                    <p id="hp"></p>
+                    <p id="attack"></p>
+                    <p id="defense"></p>
+                    <p id="special-attack"></p> 
+                    <p id="special-defense"></p>
+                    <p id="speed"></p>
+                </div>
+    
+      
+          </div>
+    </div>
+   
   </main>
   <script src="./script.js"></script>
   </body>

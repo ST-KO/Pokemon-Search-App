@@ -1,0 +1,50 @@
+
+main{
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+    color: black;
+    
+}
+#sprite{
+    width: 200px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+.input_btn{
+    text-align: center;
+}
+
+.input_btn input{
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+    outline: 0;
+    border-color: black;
+    border-width: 2px;
+}
+
+.input_btn button{
+    cursor: pointer;
+    height: 30px;
+    width: 60px;
+    border-radius: 20px;
+    background-color:aquamarine;
+    border: 1px solid black;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.table-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
